@@ -1,556 +1,535 @@
 <!DOCTYPE html>
 <html lang="es-mx" charset="utf-8">
-
-<head>
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-
-    <!--Icons-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <!--End of materialize.css-->
-
-	<meta name="author" content="Benjamín Valdés">
-
-    <title>TC1030 Programación Orientada a Objetos</title>
-
-    <link rel="stylesheet" type="text/css" href="cursos.css">
-</head>
-
-<body>
-    <header>
-        <div class="navbar-fixed">
+   <head>
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+      <!--Icons-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+      <!--End of materialize.css-->
+      <meta name="author" content="Benjamín Valdés">
+      <title>TC1030 Programación Orientada a Objetos</title>
+      <link rel="stylesheet" type="text/css" href="cursos.css">
+   </head>
+   <body>
+      <header>
+         <div class="navbar-fixed">
             <nav>
-                <div class="blue darken-1 nav-wrapper">
-                    <a href="index.html" class="brand-logo">TC1030 Programación Orientada a Objetos</a>
-                </div>
+               <div class="blue darken-1 nav-wrapper">
+                  <a href="index.html" class="brand-logo">TC1030 Programación Orientada a Objetos</a>
+               </div>
             </nav>
-        </div>
-
-        <div class="container">
+         </div>
+         <div class="container">
             <div class="section">
-                <h3>Calendario de actividades</h3>
+               <h3>Calendario de actividades</h3>
             </div>
-        </div>
-    </header>
-
-    <main>
-        <table border="1" class="striped ">
+         </div>
+      </header>
+      <main>
+         <table border="1" class="striped ">
             <thead>
-                <tr>
-                    <th>Contenido</th>
-                    <th>Sesión <br>
-						(Fecha)
-					</th>
-                    <th>Actividad</th>
-				</tr>
+               <tr>
+                  <th>Contenido</th>
+                  <th>Sesión <br>
+                     (Fecha)
+                  </th>
+                  <th>Actividad</th>
+               </tr>
             </thead>
             <tbody>
-
-                <tr>
-                    <td>
-                        Repaso UML y <br> diseño de objetos
-                    </td>
-          					<td>
-          						(sesión 1) <br>
-                      11 de Mayo
-          					</td>
-                    <td>
-                        <ul>
-                            <li>
-								                <i class="small material-icons">info_outline</i>Inroducción al Curso</a>
-                            </li>
-                            <li>
-                               <a href="https://itesm.zoom.us/j/2231645424" target="_blank"><i class="small material-icons">info_outline</i>Canal zoom (clases y Aseorias)</a>
-                            </li>
-                            <li>
-                               <a href="https://qrgo.page.link/M6HNX" target="_blank"><i class="small material-icons">info_outline</i>Horarios para asesorias por zoom</a>
-                            </li>
-                            <li>
-								               <a href="https://docs.google.com/spreadsheets/d/1GxvBMPnesN7TwK7EBGkGdCF9toWG4w3RjAJtdq9QXbM/edit?usp=sharing" target="_blank"><i class="small material-icons">info_outline</i>Lista de Cotejo de Competencias de la materia</a>
-                            </li>
-                            <li>
-                               <a href="https://drive.google.com/drive/folders/1mBZpPexPQ6eg8zuWirMFMqgrZSLGG3Or?usp=sharing" target="_blank"><i class="small material-icons">info_outline</i>Calificaciones (busca el archivo con tu matrícula)</a>
-                            </li>
-                            <li>
-                               <a href="https://drive.google.com/drive/folders/13lXHJL1ufzw5738xQbSHvfykH3qMG5fI?usp=sharing" target="_blank"><i class="small material-icons">info_outline</i>Sesiones de Zoom grabadas</a>
-                            </li>
-              							<li>
-              								<a href="documentos/Capitulo9.pdf" target="_blank"><i class="small material-icons">info_outline</i>Faltas a la integridad académica</a>.
-                           </li>
-              							<li>
-              								<i class="small material-icons">speaker_notes</i>Repaso Orientado a Objetos (abstracción):
-                              <ol>
-                                <li>UML</li>
-                                <li>Clase: parametros, objetos</li>
-                                <li>Herencia: public, private</li>
-                                <li>Composición Agregación</li>
-                              </ol>
-                            </li>
-                            <li>
-              								<i class="small material-icons">speaker_notes</i>Ejemplo Netflix.
-              							</li>
-                        </ul>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-
-                    </td>
-          					<td>
-          						Tarea
-          					</td>
-                    <td>
-                        <ul>
-                            <li>
-           							    <i class="small material-icons">assignment</i>Material de Repaso para diseño Orientado a Objetos:
-                									<ol>
-                				 					<li><a href="https://benjaminva.github.io/TC1033/" target="_blank"> material curso TC1033 </a></li>
-                                  <li>canvas-> contenidos-> lecturas sugeridas Orientado a Objetos </li>
-											<li><a href="https://teloexplicocongatitos.com/poster/tlecg07" target="_blank"> Posters con gatitos  <3 </a></li>
-                									</ol>
-                            </li>
-                            <li>
-                              <i class="small material-icons">assignment</i>Material de Repaso para C++:
-                									<ol>
-                								  <li>canvas-> contenidos-> Material de repaso C++ </li>
-                									</ol>
-                            </li>
-                            <li>
-                              <i class="small material-icons">assignment</i>
-                                Toma notas sobre el tema para usar en los examenes. Las notas deben de estar escritas a mano.<b>
-                                No impreso, no copias, no digital.</b>
-                            </li>
-                            <li>
-                            <i class="small material-icons">assignment</i>Tutorial de configuración para IDE y repositorio:
-                              <ol>
-                                <li><a href="https://www.youtube.com/watch?v=Hu1gzAqUZu0&feature=youtu.be" target="_blank"> github </a> crear cuenta y subir archivo UML </li>
-                                <li><a href="https://www.youtube.com/watch?v=RtQZ9bSvr_M&feature=youtu.be" target="_blank"> replit </a> en caso de no tener IDE (opcional) </li>
-                              </ol>
-                            </li>
-              							<li>
-              								<span style="color: rgb(0, 150, 0); font-weight: bold;">
-              								<i class="small material-icons">computer</i>
-                                Proyecto Integrador primer Avance <br>
-                                Diseña el diagram de clases de tu proyecto entre 4 y 7, y sigue las instrucciones de entrega en canvas. <br>
-                                Se evalúan las siguientes subcompetencias: <br>
-                                <ol>
-                                  <li>Identifico de manera correcta las clases a utilizar para solucionar el problema </li>
-                                  <li>Identifico los casos que harían que el proyecto deje de funcionar </li>
-                                  <li>Genero un diagrama de clases UML correcto y y explico su relación con el problema de forma clara </li>
-                                </ol>
-                    				</span>
-                          </li>
-                          <li><a href="https://github.com/benjaminva/TC1030_Proyecto_Demo">Proyecto Demo </a> usa este proyecto como guía para aclarar tus dudas con respecto al entregable.</li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                   <td>
-                      Repaso Implementación Herencia
-                   </td>
-            			 <td>
-            					(Sesión 2) <br>
-                      14 de Mayo
-            			 </td>
-                   <td>
-                        <ul>
-                          <li>
-                              <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                                 <i class="small material-icons">assessment</i> Examen: U.M.L.
-                              </span>
-                          </li>
-                          <li>
-                            <i class="small material-icons">speaker_notes</i> Solución del examen.
-                          </li
-                          <li>
-								             <i class="small material-icons">speaker_notes</i>Resolver dudas del autoestudio
-                          </li>
-                          <li>
-								             <i class="small material-icons">speaker_notes</i> Implementación Herencia (encapsulación):
-                             <ol>
-                                <li>sobrecarga de funciones</li>
-                                <li>sobre escritura de funciones</li>
-                                <li>métodos de acceso </li>
-                                <li><a href="examples/anime.cpp" target="_blank"> anime.cpp </a></li>
-                                <li><a href="examples/anime.h" target="_blank"> anime.h </a></li>
-                                <li><a href="examples/anime.pdf" target="_blank"> anime.pdf </a></li>
-                             </ol>
-							             </li>
-                           <li>
- 								             <i class="small material-icons">speaker_notes</i>Ejemplo Netflix
-                           </li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td>
-                    </td>
-          					<td>
-          						Tarea
-          					</td>
-                    <td>
-                        <ul>
-                            <li><i class="small material-icons">assignment</i>Lectura Apuntadores
-                              <ol>
-                                <li>canvas-> contenidos-> Material de Repaso de Apuntadores (Lecturas y Videos)</li>
-                              </ol>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td>
-                        Apuntadores
-                    </td>
-          					<td>
-          						(sesión 3)<br>
-                      18 de Mayo
-          					</td>
-                    <td>
-                        <ul>
-                            <li>
-              								<i class="small material-icons">speaker_notes</i> Resolver dudas sobre apuntadores:
-              								<ol>
-                                <li>delcaración apuntador * </li>
-              									<li>uso apuntador * </li>
-              									<li>uso referencia & </li>
-              									<li>objetos que guaran cambios</li>
-              									<li>uso en funciones </li>
-                                <li><a href="examples/apuntadores.cpp" target="_blank"> apuntadores.cpp </a></li>
-              								</ol>
-							              </li>
-            							<li>
-            								<i class="small material-icons">computer</i>Ejemplo Netflix
-            							</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-
-                    </td>
-          					<td>
-          						 Tarea
-          					</td>
-                    <td>
-                        <ul>
-            							<li>
-                            <span style="color: rgb(0, 150, 0); font-weight: bold;">
-            								<i class="small material-icons">computer</i> Proyecto Integrador Segundo Avance <br>
-                            Implementa las clases con herencia siguiendo tu UML y súbelo a github y entrega el link del avance en canvas.<br>
-                            Se evalúan las siguientes subcompetencias: <br>
-                            <ol>
-                              <li>Se emplea de manera correcta el concepto de Herencia </li>
-                              <li>Se emplea de manera correcta los modificadores de acceso</li>
-                              <li>Se emplea de manera correcta la sobrecarga y sobreescritura de métodos</li>
-                            </ol>
-                					</span>
-                          </li>
-                          <li><a href="https://github.com/benjaminva/TC1030_Proyecto_Demo">Proyecto Demo </a> usa este proyecto como guía para aclarar tus dudas con respecto al entregable.</li>
-            		        </ul>
-                    </td>
-                </tr>
-
-				        <tr>
-                    <td>
-                        polimorfismo
-                    </td>
-          					<td>
-          						(sesión 4)<br>
-                      21 de Mayo
-          					</td>
-                    <td>
-                        <ul>
-    					             <li><span style="color: rgb(0, 150, 0); font-weight: bold;">
-								           <i class="small material-icons">assessment</i> Examen: Implemenación de herencia, sobrecarga, sobre escritura y métodos de acceso </span>
-            							</li>
-            							<li>
-            								<i class="small material-icons">speaker_notes</i> Solución del examen.
-            							</li>
-                          <li>
-                          <i class="small material-icons">speaker_notes</i> intro polimorfismo:
-                          <ol>
-                            <li>relación con herencia </li>
-                            <li>relación con apuntadores </li>
-                            <li>explicación memoría tiempo de ejecución y tiempo de compilación </li>
-                            <li>sobrecarga y sobreescritura <a href="examples/anime-1.h" target="_blank"> anime-1.h </a></li>
-                          </ol>
-                          </li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td>
-
-                    </td>
-          					<td>
-          						Tarea
-          					</td>
-                    <td>
-                        <ul>
-                          <li><i class="small material-icons">assignment</i>Lectura Polimorfismo
-                            <ol>
-                              <li>canvas-> contenidos-> Material de Repaso de Polimorfismo (Lecturas)</li>
-                            </ol>
-                          </li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td>
-                        Polimorfismo
-                    </td>
-          					<td>
-          						(sesión 5)<br>
-                      25 de Mayo
-          					</td>
-                    <td>
-                          <ul>
-                            <li>
-            								<i class="small material-icons">speaker_notes</i> Resolver dudas sobre polimorfismo
-            								<ol>
-            									<li>virtual</li>
-                              <li>implementación polimorfismo <a href="examples/polimorfismo_virtual.cpp" target="_blank"> polimorfismo_virtual.cpp </a></li>
-                          	</ol>
-							              </li>
-              							<li>
-              								<i class="small material-icons">assignment</i>Ejemplo Netflix.
-                            </li>
-                          </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-
-                    </td>
-          					<td>
-          						Tarea
-          					</td>
-                    <td>
-                        <ul>
-            							 <li>
-                             <span style="color: rgb(0, 150, 0); font-weight: bold;">
-               						      <i class="small material-icons">computer</i> Proyecto Integrador Tercer Avance <br>
-                              Implementa las clases polimorfismo súbelo a github y entrega el link del avance en canvas.<br>
+               <tr>
+                  <td>
+                     Repaso UML y <br> diseño de objetos
+                  </td>
+                  <td>
+                     (sesión 1) <br>
+                     11 de Mayo
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">info_outline</i>Inroducción al Curso</a>
+                        </li>
+                        <li>
+                           <a href="https://itesm.zoom.us/j/2231645424" target="_blank"><i class="small material-icons">info_outline</i>Canal zoom (clases y Aseorias)</a>
+                        </li>
+                        <li>
+                           <a href="https://qrgo.page.link/M6HNX" target="_blank"><i class="small material-icons">info_outline</i>Horarios para asesorias por zoom</a>
+                        </li>
+                        <li>
+                           <a href="https://docs.google.com/spreadsheets/d/1GxvBMPnesN7TwK7EBGkGdCF9toWG4w3RjAJtdq9QXbM/edit?usp=sharing" target="_blank"><i class="small material-icons">info_outline</i>Lista de Cotejo de Competencias de la materia</a>
+                        </li>
+                        <li>
+                           <a href="https://drive.google.com/drive/folders/1mBZpPexPQ6eg8zuWirMFMqgrZSLGG3Or?usp=sharing" target="_blank"><i class="small material-icons">info_outline</i>Calificaciones (busca el archivo con tu matrícula)</a>
+                        </li>
+                        <li>
+                           <a href="https://drive.google.com/drive/folders/13lXHJL1ufzw5738xQbSHvfykH3qMG5fI?usp=sharing" target="_blank"><i class="small material-icons">info_outline</i>Sesiones de Zoom grabadas</a>
+                        </li>
+                        <li>
+                           <a href="documentos/Capitulo9.pdf" target="_blank"><i class="small material-icons">info_outline</i>Faltas a la integridad académica</a>.
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i>Repaso Orientado a Objetos (abstracción):
+                           <ol>
+                              <li>UML</li>
+                              <li>Clase: parametros, objetos</li>
+                              <li>Herencia: public, private</li>
+                              <li>Composición Agregación</li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i>Ejemplo Netflix.
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  </td>
+                  <td>
+                     Tarea
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">assignment</i>Material de Repaso para diseño Orientado a Objetos:
+                           <ol>
+                              <li><a href="https://benjaminva.github.io/TC1033/" target="_blank"> material curso TC1033 </a></li>
+                              <li>canvas-> contenidos-> lecturas sugeridas Orientado a Objetos </li>
+                              <li><a href="https://teloexplicocongatitos.com/poster/tlecg07" target="_blank"> Posters con gatitos  <3 </a></li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">assignment</i>Material de Repaso para C++:
+                           <ol>
+                              <li>canvas-> contenidos-> Material de repaso C++ </li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">assignment</i>
+                           Toma notas sobre el tema para usar en los examenes. Las notas deben de estar escritas a mano.<b>
+                           No impreso, no copias, no digital.</b>
+                        </li>
+                        <li>
+                           <i class="small material-icons">assignment</i>Tutorial de configuración para IDE y repositorio:
+                           <ol>
+                              <li><a href="https://www.youtube.com/watch?v=Hu1gzAqUZu0&feature=youtu.be" target="_blank"> github </a> crear cuenta y subir archivo UML </li>
+                              <li><a href="https://www.youtube.com/watch?v=RtQZ9bSvr_M&feature=youtu.be" target="_blank"> replit </a> en caso de no tener IDE (opcional) </li>
+                           </ol>
+                        </li>
+                        <li>
+                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
+                              <i class="small material-icons">computer</i>
+                              Proyecto Integrador primer Avance <br>
+                              Diseña el diagram de clases de tu proyecto entre 4 y 7, y sigue las instrucciones de entrega en canvas. <br>
                               Se evalúan las siguientes subcompetencias: <br>
                               <ol>
-                                <li>Se emplea de manera correcta el concepto de Polimorfismo</li>
+                                 <li>Identifico de manera correcta las clases a utilizar para solucionar el problema </li>
+                                 <li>Identifico los casos que harían que el proyecto deje de funcionar </li>
+                                 <li>Genero un diagrama de clases UML correcto y y explico su relación con el problema de forma clara </li>
                               </ol>
-                             <span>
-                            </li>
-                          <li><a href="https://github.com/benjaminva/TC1030_Proyecto_Demo">Proyecto Demo </a> usa este proyecto como guía para aclarar tus dudas con respecto al entregable.</li>
-                        </ul>
-                      </td>
-                </tr>
-
-				        <tr>
-                    <td>
-                        Sobre carga de operadores
-                    </td>
-          					<td>
-          						(sesión 6)<br>
-                      28 de Mayo
-          					</td>
-                    <td>
-                        <ul>
-          							<li><span style="color: rgb(0, 150, 0); font-weight: bold;">
-          								<i class="small material-icons">assessment</i> Examen: Polimorfismo
-          								</span>
-          							</li>
-          							<li>
-          								<i class="small material-icons">speaker_notes</i> Sobrecarga de Operadores.
-                          <ol>
-                            <li>implementación sobrecarga <a href="examples/sobrecarga_port.cpp" target="_blank">sobrecarga_port.cpp </a></li>
-                            <li>ejercicio sobrecarga <a href="examples/sobrecarga_vector_ejercicio.cpp" target="_blank">sobrecarga_vector_ejercicio.cpp</a></li>
-                            <li>solucion <a href="examples/sobrecarga_vector.cpp" target="_blank">sobrecarga_vector.cpp </a></li>
-                          </ol>
-          							</li>
-                        <li>
-                          <i class="small material-icons">speaker_notes</i> Ejemplo Netflix.
+                           </span>
                         </li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td>
-
-                    </td>
-          					<td>
-          						Tarea
-          					</td>
-                    <td>
-                        <ul>
-                            <li>
-                              <i class="small material-icons">assignment</i>Lectura Sobrecarga de Operadores</a>
+                        <li><a href="https://github.com/benjaminva/TC1030_Proyecto_Demo">Proyecto Demo </a> usa este proyecto como guía para aclarar tus dudas con respecto al entregable.</li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     Repaso Implementación Herencia
+                  </td>
+                  <td>
+                     (Sesión 2) <br>
+                     14 de Mayo
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
+                           <i class="small material-icons">assessment</i> Examen: U.M.L.
+                           </span>
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Solución del examen.
+                           </li
+                        <li>
+                           <i class="small material-icons">speaker_notes</i>Resolver dudas del autoestudio
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Implementación Herencia (encapsulación):
+                           <ol>
+                              <li>sobrecarga de funciones</li>
+                              <li>sobre escritura de funciones</li>
+                              <li>métodos de acceso </li>
+                              <li><a href="examples/anime.cpp" target="_blank"> anime.cpp </a></li>
+                              <li><a href="examples/anime.h" target="_blank"> anime.h </a></li>
+                              <li><a href="examples/anime.pdf" target="_blank"> anime.pdf </a></li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i>Ejemplo Netflix
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  </td>
+                  <td>
+                     Tarea
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">assignment</i>Lectura Apuntadores
+                           <ol>
+                              <li>canvas-> contenidos-> Material de Repaso de Apuntadores (Lecturas y Videos)</li>
+                           </ol>
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     Apuntadores
+                  </td>
+                  <td>
+                     (sesión 3)<br>
+                     18 de Mayo
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Resolver dudas sobre apuntadores:
+                           <ol>
+                              <li>delcaración apuntador * </li>
+                              <li>uso apuntador * </li>
+                              <li>uso referencia & </li>
+                              <li>objetos que guaran cambios</li>
+                              <li>uso en funciones </li>
+                              <li><a href="examples/apuntadores.cpp" target="_blank"> apuntadores.cpp </a></li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">computer</i>Ejemplo Netflix
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  </td>
+                  <td>
+                     Tarea
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
+                              <i class="small material-icons">computer</i> Proyecto Integrador Segundo Avance <br>
+                              Implementa las clases con herencia siguiendo tu UML y súbelo a github y entrega el link del avance en canvas.<br>
+                              Se evalúan las siguientes subcompetencias: <br>
                               <ol>
-                                <li>canvas-> contenidos-> Material de Repaso de Sobrecarga de Operadores (Lecturas)</li>
+                                 <li>Se emplea de manera correcta el concepto de Herencia </li>
+                                 <li>Se emplea de manera correcta los modificadores de acceso</li>
+                                 <li>Se emplea de manera correcta la sobrecarga y sobreescritura de métodos</li>
                               </ol>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td>
-                        Clases Abstractas
-                    </td>
-          					<td>
-          						(sesión 7)<br>
-                      1 de Junio
-          					</td>
-                    <td>
-                        <ul>
-                            <li>
-              								<i class="small material-icons">speaker_notes</i> Resolver dudas sobre Sobre carga de Operadores
-                              <ol>
-                                <li>implementación sobrecarga <a href="examples/sobrecarga_port.cpp" target="_blank">sobrecarga_port.cpp </a></li>
-                                <li>ejercicio sobrecarga <a href="examples/sobrecarga_vector_ejercicio.cpp" target="_blank">sobrecarga_vector_ejercicio.cpp</a></li>
-                                <li>solucion <a href="examples/sobrecarga_vector.cpp" target="_blank">sobrecarga_vector.cpp </a></li>
-                              </ol>
-              							</li>
-              							<li>
-              								<i class="small material-icons">speaker_notes</i>Clases Abstractas e Interfaces
-                              <ol>
-                                <li>implementación clases abstractas <a href="examples/polimorfismo_clase_abstracta.cpp" target="_blank">polimorfismo_clase_abstracta.cpp </a></li>
-                              </ol>
-                            </li>
-              							<li>
-              								<i class="small material-icons">computer</i>Ejemplo Netflix
-              							</li>
-                        </ul>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td></td>
-					          <td>Tarea</td>
-                    <td>
-                        <ul>
-            							<li>
-                            <span style="color: rgb(0, 150, 0); font-weight: bold;">
-                					    <i class="small material-icons">computer</i> Proyecto Integrador Cuarto Avance <br>
+                           </span>
+                        </li>
+                        <li><a href="https://github.com/benjaminva/TC1030_Proyecto_Demo">Proyecto Demo </a> usa este proyecto como guía para aclarar tus dudas con respecto al entregable.</li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     polimorfismo
+                  </td>
+                  <td>
+                     (sesión 4)<br>
+                     21 de Mayo
+                  </td>
+                  <td>
+                     <ul>
+                        <li><span style="color: rgb(0, 150, 0); font-weight: bold;">
+                           <i class="small material-icons">assessment</i> Examen: Implemenación de herencia, sobrecarga, sobre escritura y métodos de acceso </span>
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Solución del examen.
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> intro polimorfismo:
+                           <ol>
+                              <li>relación con herencia </li>
+                              <li>relación con apuntadores </li>
+                              <li>explicación memoría tiempo de ejecución y tiempo de compilación </li>
+                              <li>sobrecarga y sobreescritura <a href="examples/anime-1.h" target="_blank"> anime-1.h </a></li>
+                           </ol>
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  </td>
+                  <td>
+                     Tarea
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">assignment</i>Lectura Polimorfismo
+                           <ol>
+                              <li>canvas-> contenidos-> Material de Repaso de Polimorfismo (Lecturas)</li>
+                           </ol>
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     Polimorfismo
+                  </td>
+                  <td>
+                     (sesión 5)<br>
+                     25 de Mayo
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Resolver dudas sobre polimorfismo
+                           <ol>
+                              <li>virtual</li>
+                              <li>implementación polimorfismo <a href="examples/polimorfismo_virtual.cpp" target="_blank"> polimorfismo_virtual.cpp </a></li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">assignment</i>Ejemplo Netflix.
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  </td>
+                  <td>
+                     Tarea
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
+                           <i class="small material-icons">computer</i> Proyecto Integrador Tercer Avance <br>
+                           Implementa las clases polimorfismo súbelo a github y entrega el link del avance en canvas.<br>
+                           Se evalúan las siguientes subcompetencias: <br>
+                           <ol>
+                              <li>Se emplea de manera correcta el concepto de Polimorfismo</li>
+                           </ol>
+                           <span>
+                        </li>
+                        <li><a href="https://github.com/benjaminva/TC1030_Proyecto_Demo">Proyecto Demo </a> usa este proyecto como guía para aclarar tus dudas con respecto al entregable.</li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     Sobre carga de operadores
+                  </td>
+                  <td>
+                     (sesión 6)<br>
+                     28 de Mayo
+                  </td>
+                  <td>
+                     <ul>
+                        <li><span style="color: rgb(0, 150, 0); font-weight: bold;">
+                           <i class="small material-icons">assessment</i> Examen: Polimorfismo
+                           </span>
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Sobrecarga de Operadores.
+                           <ol>
+                              <li>implementación sobrecarga <a href="examples/sobrecarga_port.cpp" target="_blank">sobrecarga_port.cpp </a></li>
+                              <li>ejercicio sobrecarga <a href="examples/sobrecarga_vector_ejercicio.cpp" target="_blank">sobrecarga_vector_ejercicio.cpp</a></li>
+                              <li>solucion <a href="examples/sobrecarga_vector.cpp" target="_blank">sobrecarga_vector.cpp </a></li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Ejemplo Netflix.
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  </td>
+                  <td>
+                     Tarea
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">assignment</i>Lectura Sobrecarga de Operadores</a>
+                           <ol>
+                              <li>canvas-> contenidos-> Material de Repaso de Sobrecarga de Operadores (Lecturas)</li>
+                           </ol>
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     Clases Abstractas
+                  </td>
+                  <td>
+                     (sesión 7)<br>
+                     1 de Junio
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Resolver dudas sobre Sobre carga de Operadores
+                           <ol>
+                              <li>implementación sobrecarga <a href="examples/sobrecarga_port.cpp" target="_blank">sobrecarga_port.cpp </a></li>
+                              <li>ejercicio sobrecarga <a href="examples/sobrecarga_vector_ejercicio.cpp" target="_blank">sobrecarga_vector_ejercicio.cpp</a></li>
+                              <li>solucion <a href="examples/sobrecarga_vector.cpp" target="_blank">sobrecarga_vector.cpp </a></li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i>Clases Abstractas e Interfaces
+                           <ol>
+                              <li>implementación clases abstractas <a href="examples/polimorfismo_clase_abstracta.cpp" target="_blank">polimorfismo_clase_abstracta.cpp </a></li>
+                           </ol>
+                        </li>
+                        <li>
+                           <i class="small material-icons">computer</i>Ejemplo Netflix
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>Tarea</td>
+                  <td>
+                     <ul>
+                        <li>
+                           <span style="color: rgb(0, 150, 0); font-weight: bold;">
+                              <i class="small material-icons">computer</i> Proyecto Integrador Cuarto Avance <br>
                               Corregir errores previos, agrega sobrecaga de operadores si aplica  y asegúrate que las clases abstractas<br>
                               estén declaradas correctamente, subi tu avance a github y pon ahí la documentación en el reademe, después <br>
                               entrega el link en canvas. <br>
                               Se evalúan las siguientes subcompetencias: <br>
                               <ol>
-                                <li>Se emplea de manera correcta el concepto de Clases Abstractas </li>
-                                <li>Usa herramientas de control de versiones </li>
-                                <li>Incluye documentación útil en el repositorio del pryecto </li>
+                                 <li>Se emplea de manera correcta el concepto de Clases Abstractas </li>
+                                 <li>Usa herramientas de control de versiones </li>
+                                 <li>Incluye documentación útil en el repositorio del pryecto </li>
                               </ol>
-                            </span>
-                           </li>
-                           <li><a href="https://github.com/benjaminva/TC1030_Proyecto_Demo">Proyecto Demo </a> usa este proyecto como guía para aclarar tus dudas con respecto al entregable.</li>
-                           <li>
-                             <i class="small material-icons">computer</i>
-                             (oprcional) Apartar revisión final para la sesión 9.
-                           </li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td>
-                        Ejericio integrador
-                    </td>
-          					<td>
-          						(sesión 8)<br>
-                      4 de Junio
-          					</td>
-                    <td>
-                        <ul>
-            							<li><span style="color: rgb(0, 150, 0); font-weight: bold;">
-            								<i class="small material-icons">assessment</i> Examen: Interfaces y Clases Abstractas
-            							  </span>
-            							</li>
-            							<li>
-            								<i class="small material-icons">speaker_notes</i> Solución del examen.
-            							</li>
-                          <li>
-                            <i class="small material-icons">assessment</i> Revisión de Proyectos (con cita)
-                          </li>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td></td>
-					          <td>Tarea</td>
-                    <td>
-                      Avanza en el proyecto y resuevle dudas del módulo
-                    </td>
-                </tr>
-				        <tr>
-                  <td>
-                    Github
+                           </span>
+                        </li>
+                        <li><a href="https://github.com/benjaminva/TC1030_Proyecto_Demo">Proyecto Demo </a> usa este proyecto como guía para aclarar tus dudas con respecto al entregable.</li>
+                        <li>
+                           <i class="small material-icons">computer</i>
+                           (oprcional) Apartar revisión final para la sesión 9.
+                        </li>
+                     </ul>
                   </td>
-        					<td>
-        						(sesión 9)<br>
-                    8 de Junio
-        					</td>
+               </tr>
+               <tr>
                   <td>
-                      <ul>
-                          <li>
-          								<i class="small material-icons">speaker_notes</i>Github
-                          </li>
-                          <li>
-                            <i class="small material-icons">assessment</i> Revisión de Proyectos (con cita)
-                          </li>
-                      </ul>
-                   </td>
-                </tr>
-				        <tr>
-                    <td></td>
-					          <td>Tarea</td>
-                    <td>
-                        <ul>
-            							<span style="color: rgb(0, 150, 0); font-weight: bold;">
-            								<li>
-            								<i class="small material-icons">computer</i>
+                     Ejericio integrador
+                  </td>
+                  <td>
+                     (sesión 8)<br>
+                     4 de Junio
+                  </td>
+                  <td>
+                     <ul>
+                        <li><span style="color: rgb(0, 150, 0); font-weight: bold;">
+                           <i class="small material-icons">assessment</i> Examen: Interfaces y Clases Abstractas
+                           </span>
+                        </li>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i> Solución del examen.
+                        </li>
+                        <li>
+                           <i class="small material-icons">assessment</i> Revisión de Proyectos (con cita)
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>Tarea</td>
+                  <td>
+                     Avanza en el proyecto y resuevle dudas del módulo
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     Github
+                  </td>
+                  <td>
+                     (sesión 9)<br>
+                     8 de Junio
+                  </td>
+                  <td>
+                     <ul>
+                        <li>
+                           <i class="small material-icons">speaker_notes</i>Github
+                        </li>
+                        <li>
+                           <i class="small material-icons">assessment</i> Revisión de Proyectos (con cita)
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>Tarea</td>
+                  <td>
+                     <ul>
+                        <span style="color: rgb(0, 150, 0); font-weight: bold;">
+                           <li>
+                              <i class="small material-icons">computer</i>
                               Sube el link de github en tu portafolio de lumen junto con una image o pdf de tu tabla de competencias.<br>
                               La actividad de lumen esta en canvas en la sección del proyecto.
-            								</li>
-  							          </span>
-                        </ul>
-                    </td>
-                </tr>
-				        <tr>
-                    <td>
-                        Examen de Módulo
-                    </td>
-          					<td>
-          						(sesión 10)<br>
-                      11 de Junio
-          					</td>
-                    <td>
-                        <ul>
-                          <li><span style="color: rgb(0, 150, 0); font-weight: bold;">
-            								<i class="small material-icons">assessment</i> Examen: Interfaces y Clases Abstractas
-            							  </span>
-            							</li>
-                        </ul>
-                    </td>
-                </tr>
+                           </li>
+                        </span>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     Examen de Módulo
+                  </td>
+                  <td>
+                     (sesión 10)<br>
+                     11 de Junio
+                  </td>
+                  <td>
+                     <ul>
+                        <li><span style="color: rgb(0, 150, 0); font-weight: bold;">
+                           <i class="small material-icons">assessment</i> Examen: Interfaces y Clases Abstractas
+                           </span>
+                        </li>
+                     </ul>
+                  </td>
+               </tr>
             </tbody>
-        </table>
-    </main>
-
-    <footer class="blue darken-1 page-footer">
-        <div class="container">
+         </table>
+      </main>
+      <footer class="blue darken-1 page-footer">
+         <div class="container">
             <div class="row left-align">
             </div>
             <p class="grey-text text-lighten-4">Powered by <a href="http://materializecss.com/" target="_blank" class="white-text text-lighten-4">Materialize</a>.</p>
-        </div>
-        <div class="footer-copyright">
+         </div>
+         <div class="footer-copyright">
             <div class="container">
-                    © 2019 Escuela de Ingeniería y Ciencias - Tecnológico de Monterrey, Campus Querétaro.
+               © 2019 Escuela de Ingeniería y Ciencias - Tecnológico de Monterrey, Campus Querétaro.
             </div>
-        </div>
-    </footer>
-
-</body>
-
+         </div>
+      </footer>
+   </body>
 </html>
