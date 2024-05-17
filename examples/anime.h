@@ -140,7 +140,7 @@ void Shonnen::imprime_personajes(){
 		cout << equipo_b[i] << " ";
 	
 	cout << endl << "villanos:" << endl ;
-	for (int i = 0; i < num_b; i++)
+	for (int i = 0; i < num_m; i++)
 		cout << equipo_m[i] << " ";
 }
 
